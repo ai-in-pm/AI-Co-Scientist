@@ -1,0 +1,17 @@
+# Dependencies for AI Co-Scientist system
+
+# Core dependencies
+openai>=1.0.0,<2.0.0
+langchain>=0.0.300
+python-dotenv>=1.0.0
+
+# UI dependencies
+streamlit>=1.28.0
+simplejson>=3.19.1
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Utility dependencies
+requests>=2.28.0
+typing-extensions>=4.7.0
+pydantic>=2.0.0

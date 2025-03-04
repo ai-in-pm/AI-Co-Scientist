@@ -1,0 +1,10 @@
+2025-03-04 14:30:40 - root - INFO - Logging to file: C:\CC-WorkingDir\ACS - AI CoScientist\logs\ai_coscientist_20250304_143040.log
+2025-03-04 14:30:40 - root - INFO - Logging initialized at level INFO
+2025-03-04 14:30:40 - root - INFO - Initializing AI Co-Scientist system
+2025-03-04 14:30:40 - root - INFO - Configuration overridden with custom values
+2025-03-04 14:30:40 - root - INFO - Using model: gpt-4o-2024-05-13
+2025-03-04 14:30:44 - agent_factory - INFO - Created new agent: supervisor, model: gpt-4o-2024-05-13, temp: 0.2
+2025-03-04 14:30:44 - root - INFO - Setting research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:30:44 - root - INFO - Research goal set successfully
+2025-03-04 14:30:44 - root - INFO - Generating 7 hypotheses for research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:30:45 - agent_factory - INFO - Created new agent: generation, model: gpt-4o-2024-05-13, temp: 0.4

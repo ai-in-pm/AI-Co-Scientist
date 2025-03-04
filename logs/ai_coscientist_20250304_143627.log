@@ -1,0 +1,16 @@
+2025-03-04 14:36:27 - root - INFO - Logging to file: C:\CC-WorkingDir\ACS - AI CoScientist\logs\ai_coscientist_20250304_143627.log
+2025-03-04 14:36:27 - root - INFO - Logging initialized at level INFO
+2025-03-04 14:36:27 - root - INFO - Initializing AI Co-Scientist system
+2025-03-04 14:36:27 - root - INFO - Configuration overridden with custom values
+2025-03-04 14:36:27 - root - INFO - Using model: gpt-4-turbo
+2025-03-04 14:36:28 - agent_factory - INFO - Created new agent: supervisor, model: gpt-4-turbo, temp: 0.2
+2025-03-04 14:36:28 - root - INFO - Setting research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:36:28 - root - INFO - Research goal set successfully
+2025-03-04 14:36:28 - root - INFO - Generating 7 hypotheses for research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:36:29 - agent_factory - INFO - Created new agent: generation, model: gpt-4-turbo, temp: 0.4
+2025-03-04 14:36:29 - agent.generation - INFO - Generating 7 hypotheses for research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:36:29 - agent.generation - INFO - Generating hypotheses for research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:36:54 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 14:36:54 - root - WARNING - Invalid hypothesis: ### Hypothesis 1: Reduced microbiome diversity in urban populations is associated with a higher prevalence of autoimmune disorders.
+Issues: Hypothesis may not be testable - consider including terms that describe relationships, effects, or changes, Hypothesis may not clearly specify variables or relationships to test
+2025-03-04 14:36:54 - root - INFO - Generated 0 valid hypotheses

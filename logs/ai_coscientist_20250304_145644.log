@@ -1,0 +1,25 @@
+2025-03-04 14:56:44 - root - INFO - Logging to file: C:\CC-WorkingDir\ACS - AI CoScientist\logs\ai_coscientist_20250304_145644.log
+2025-03-04 14:56:44 - root - INFO - Logging initialized at level INFO
+2025-03-04 14:56:44 - root - INFO - Initializing AI Co-Scientist system
+2025-03-04 14:56:44 - root - INFO - Configuration overridden with custom values
+2025-03-04 14:56:44 - root - INFO - Using model: gpt-4o
+2025-03-04 14:56:46 - agent_factory - INFO - Created new agent: supervisor, model: gpt-4o, temp: 0.2
+2025-03-04 14:56:46 - root - INFO - Setting research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:56:46 - root - INFO - Research goal set successfully
+2025-03-04 14:56:46 - root - INFO - Generating 7 hypotheses for research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:56:47 - agent_factory - INFO - Created new agent: generation, model: gpt-4o, temp: 0.4
+2025-03-04 14:56:47 - agent.generation - INFO - Generating 7 hypotheses for research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:56:47 - agent.generation - INFO - Generating hypotheses for research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:57:14 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 14:57:14 - root - INFO - Generated 1 valid hypotheses
+2025-03-04 14:57:14 - root - INFO - Ranking 1 hypotheses
+2025-03-04 14:57:16 - agent_factory - INFO - Created new agent: ranking, model: gpt-4o, temp: default
+2025-03-04 14:57:16 - agent.ranking - INFO - Ranking hypotheses for research goal: To investigate the relationship between microbiome diversity and autoimmune disorders in urban populations
+2025-03-04 14:57:16 - agent.ranking - INFO - Ranking 1 hypotheses
+2025-03-04 14:57:16 - agent.ranking - INFO - Using pairwise comparison ranking method
+2025-03-04 14:57:16 - root - INFO - Ranked 1 hypotheses
+2025-03-04 14:57:17 - root - INFO - Refining top 1 hypotheses through 1 iterations
+2025-03-04 14:57:18 - agent_factory - INFO - Created new agent: reflection, model: gpt-4o, temp: default
+2025-03-04 14:57:19 - agent_factory - INFO - Created new agent: evolution, model: gpt-4o, temp: default
+2025-03-04 14:57:21 - agent_factory - INFO - Created new agent: proximity, model: gpt-4o, temp: default
+2025-03-04 14:57:21 - root - INFO - Refinement iteration 1/1
