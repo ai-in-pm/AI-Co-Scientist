@@ -91,6 +91,9 @@ top_hypothesis = results["hypotheses"][0]["hypothesis"]
 print(f"Top hypothesis: {top_hypothesis}")
 print(f"Executive summary: {results['report']['executive_summary']}")
 ```
+## Output
+![image](https://github.com/user-attachments/assets/d41a43fd-a272-4a37-a2e3-f2b8f5d674d1)
+
 
 ## 📂 Project Structure
 
